@@ -4,7 +4,7 @@ import ge.nick.abstractFactoryMethod.elements.Array;
 
 import java.util.List;
 
-/*
+/**
  * Class for array object to render elements in C++ language.
  * It extends Array class that have required prototype to render it.
  * In this case it is array that contains string and create only array objects in C++.

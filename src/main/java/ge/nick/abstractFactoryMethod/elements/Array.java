@@ -3,7 +3,7 @@ package ge.nick.abstractFactoryMethod.elements;
 import ge.nick.abstractFactoryMethod.utils.Creatable;
 import java.util.List;
 
-/*
+/**
 * Class for array object to render it in any OOP language.
 * It implements Creatable interface to set required render functions.
 * In this case it is array that contains string.

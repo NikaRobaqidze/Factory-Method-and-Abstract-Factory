@@ -1,3 +1,13 @@
+/**
+ * @Author: Nika Robaqidze
+ * @Email: nika42568@gmail.com
+
+ * Scenarios:
+ * Imitate sending email to specific user.
+ * Initialize Mailers to complete task.
+ * Call functions and print result.
+ */
+
 package ge.nick;
 
 import ge.nick.factoryMethod.utils.GmailMailer;

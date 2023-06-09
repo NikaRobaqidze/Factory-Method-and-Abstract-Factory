@@ -2,37 +2,24 @@ package ge.nick.factoryMethod.providers;
 
 import ge.nick.factoryMethod.utils.Transporter;
 
-public class Gmail implements Transporter {
+/**
+* Class created to show work of factory method.
+* It needs to imitate that this is one of the service provider that
+* can complete task.
+* This is special service that required special API key.
 
-    private String authLog;
-    private String authPass;
-    private String APISecret;
+ * @param authLog   Authorization log.
+ * @param authPass  Authorization password.
+ * @param APISecret API authorization secret key.
+ */
 
-    public Gmail(String authLog, String authPass, String APISecret) {
-        this.authLog = authLog;
-        this.authPass = authPass;
-        this.APISecret = APISecret;
-    }
-
-    @Override
-    public String getAuthLog() {
-        return authLog;
-    }
-
-    @Override
-    public String getAuthPass() {
-        return authPass;
-    }
-
-    @Override
-    public String getAPISecret() {
-        return APISecret;
-    }
+public record Gmail(String authLog, String authPass, String APISecret) implements Transporter {
 
     @Override
     public void send() {
 
-        if(!"000".equals(APISecret)){
+        // Can be replaced. Send stored key to database to validate it.
+        if (!"000".equals(APISecret)) {
 
             throw new RuntimeException("Invalid secret of Gmail API.");
         }

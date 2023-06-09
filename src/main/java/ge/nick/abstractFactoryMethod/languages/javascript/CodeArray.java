@@ -3,7 +3,7 @@ package ge.nick.abstractFactoryMethod.languages.javascript;
 import java.util.List;
 import ge.nick.abstractFactoryMethod.elements.Array;
 
-/*
+/**
  * Class for array object to render elements in JavaScript language.
  * It extends Array class that have required prototype to render it.
  * In this case it is array that contains string and create only array objects in JavaScript.

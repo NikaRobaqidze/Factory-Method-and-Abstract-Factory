@@ -1,6 +1,6 @@
 package ge.nick.abstractFactoryMethod.utils;
 
-/*
+/**
 * Interface that includes actions that allowed to do with OOP elements.
 * There described OOP elements create opportunities.
 */

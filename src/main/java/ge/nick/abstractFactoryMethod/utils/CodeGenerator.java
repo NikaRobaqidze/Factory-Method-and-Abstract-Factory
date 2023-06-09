@@ -1,6 +1,6 @@
 package ge.nick.abstractFactoryMethod.utils;
 
-/*
+/**
 * Class for generating code of OOP languages.
 * In this example for generating elements in C++ and JavaScript languages.
 * For generating it need object were described allowed functions to create elements.
